@@ -182,7 +182,7 @@ export class TransactionService {
 
     const result = {
       total: 0,
-      minConsumption: { date: null, amount: 0 },
+      minConsumption: { date: null, amount: Number.MAX_SAFE_INTEGER },
       maxConsumption: { date: null, amount: 0 },
     };
 
